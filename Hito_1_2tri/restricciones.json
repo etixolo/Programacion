@@ -1,0 +1,31 @@
+{
+    "nombre": {
+        "required": true,
+        "minLength": 2,
+        "maxLength": 50
+    },
+    "apellidos": {
+        "required": true,
+        "minLength": 2,
+        "maxLength": 50
+    },
+    "correo": {
+        "required": true,
+        "type": "email"
+    },
+    "edad": {
+        "required": true,
+        "min": 18,
+        "max": 100
+    },
+    "plan_base": {
+        "required": true
+    },
+    "paquetes": {
+        "required": false,
+        "maxSelections": 3
+    },
+    "duracion": {
+        "required": true
+    }
+}
